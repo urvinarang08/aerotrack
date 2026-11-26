@@ -1,0 +1,20 @@
+# Keep the repository focused on the AeroTrack project.
+*.docx
+*.doc
+*.pdf
+extracted_doc_images/
+render_original/
+rendered/
+inspect_doc.py
+extract_images.py
+
+# Re-extractable raw expansions and dashboard exports not needed for the site.
+data/raw/extracted/
+data/processed/dashboard_*.csv
+
+# Python and notebook runtime artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
